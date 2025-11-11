@@ -447,8 +447,11 @@ for (k in 1:5) {
 }
 
 # First-Order Hermite Function Figure
+tryCatch (dev.off(), error = function (e) {
+  NULL
+})
 Horizontal_Axis_Variable <- seq(-10, 10, 0.01)
 Vertical_Axis_Variable <- sqrt(2) * (pi ^ (-0.25)) * Horizontal_Axis_Variable * exp(-0.5 * (Horizontal_Axis_Variable ^ 2))
-plot(Horizontal_Axis_Variable, Vertical_Axis_Variable, pch = 19, xlab = "Wood Temperature", ylab = "Sap Flow", main = expression(paste("1" ^ "st" * "-Order Hermite Function")))
+plot(Horizontal_Axis_Variable, -Vertical_Axis_Variable, pch = 19, xlab = "Wood Temperature", ylab = "Sap Flow", main = expression(paste("1" ^ "st" * "-Order Hermite Function")))
 abline(h = 0, col = 2, lwd = 2)
 abline(v = 0, col = 3, lwd = 2)
