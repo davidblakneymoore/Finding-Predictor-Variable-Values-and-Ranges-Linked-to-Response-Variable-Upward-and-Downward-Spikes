@@ -1,2 +1,7 @@
 # Finding-Predictor-Variable-Values-and-Ranges-Linked-to-Response-Variable-Upward-and-Downward-Spikes
 
+The function here (`Determining_Predictor_Variable_Values_and_Ranges_of_Values_Corresponding_to_Upward_and_Downward_Spikes_in_Response_Variable_Values`) is used to identify specific predictor-variables values and ranges of predictor-variable values that correspond to positive and negative spikes in response-variable values.
+
+For example, here is a figure depicting the relationship between wood temperature (the predictor variable) and sap flow (the response variable). These data come from February of 2023 from a sugar maple (*Acer saccharum*) during winter dormancy located in Durham, New Hampshire, and are from breast height at a sapwood depth of 1 cm beneath the bark. It's evident that a substantial amount of sap flow occurs near the freezing point of water (0 ˚ C), but can the precise value at which sap flow is maximized in both the upward (positive) and downward (negative) directions be determined mathematically? Furthermore, can ranges of wood temperatures be extracted from this plot that correspond to significant sap flows in both directions?
+
+To determine the critical wood temperature values - the wood temperature values associated with maximal positive and negative sap flows - we use an iterative, least-squares approach. This figure depicts the method. First, the data are split by positive and negative response-variable values. Next, WWWWW
