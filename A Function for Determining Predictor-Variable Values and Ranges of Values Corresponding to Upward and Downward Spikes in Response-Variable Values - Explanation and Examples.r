@@ -450,6 +450,7 @@ for (k in 1:5) {
 tryCatch (dev.off(), error = function (e) {
   NULL
 })
+par(mar = c(5, 5, 4, 2))
 Horizontal_Axis_Variable <- seq(-10, 10, 0.01)
 Vertical_Axis_Variable <- sqrt(2) * (pi ^ (-0.25)) * Horizontal_Axis_Variable * exp(-0.5 * (Horizontal_Axis_Variable ^ 2))
 plot(Horizontal_Axis_Variable, -Vertical_Axis_Variable, pch = 19, xlab = "Wood Temperature", ylab = "Sap Flow", main = expression(paste("1" ^ "st" * "-Order Hermite Function")))
