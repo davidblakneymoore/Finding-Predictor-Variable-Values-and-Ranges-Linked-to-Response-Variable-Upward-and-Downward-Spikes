@@ -1,4 +1,4 @@
-# Finding-Predictor-Variable-Values-and-Ranges-Linked-to-Response-Variable-Upward-and-Downward-Spikes
+# Finding Predictor Variable Values and Ranges Linked to Response Variable Upward and Downward Spikes
 
 The function in this repository (`Determining_Predictor_Variable_Values_and_Ranges_of_Values_Corresponding_to_Upward_and_Downward_Spikes_in_Response_Variable_Values`), found [here](https://github.com/davidblakneymoore/Finding-Predictor-Variable-Values-and-Ranges-Linked-to-Response-Variable-Upward-and-Downward-Spikes/blob/main/A%20Function%20for%20Determining%20Predictor-Variable%20Values%20and%20Ranges%20of%20Values%20Corresponding%20to%20Upward%20and%20Downward%20Spikes%20in%20Response-Variable%20Values.r), is used to identify specific predictor-variables values and ranges of predictor-variable values that correspond to positive and negative spikes in response-variable values.
 
